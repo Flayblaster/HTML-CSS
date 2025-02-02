@@ -1,0 +1,155 @@
+@charset "pt-br";
+
+@font-face {
+    font-family: 'idroid';
+    src: url("/fontes/idroid.otf");
+}
+
+@font-face {
+    font-family: 'sans-mono';
+    src: url("/fontes/Figtree-VariableFont_wght.ttf");
+}
+
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(0deg, grey, lightgray);
+    height: 11em;
+    width: 100%;
+}
+
+header > nav {
+    margin: 5% 0 auto 0;
+    width: max-content;
+}
+
+header > h1 {
+    margin-bottom: 0px;
+    font-family: 'sans-mono';
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 3px 5px 4px rgba(63, 63, 63, 0.315);
+}
+
+header > p {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 3px 5px 4px rgba(53, 53, 53, 0.315);
+}
+
+header > nav > a{
+    margin: auto ;
+}
+
+main {
+    background-color: white;
+    padding: 1%;
+    margin: 0 17vw;
+    box-shadow: 3px 5px 4px rgba(153, 153, 153, 0.315);
+}
+
+iframe {
+    border-radius: 20px;
+    width: 94%; 
+    height: 400px; 
+    padding: 20px; 
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    main {
+        margin: 0%;
+    }    
+
+    header {
+        height: 13em;
+    }
+
+    header > nav {
+        margin: 25px auto;
+        width: max-content;
+    }
+}
+
+#tabela {
+    background-color: lightgray;
+    margin: auto;
+    padding: 0px 5px 2px 5px;
+    border-radius: 20px;
+    box-shadow: 3px 5px 4px rgba(153, 153, 153, 0.315);
+}
+
+#tabela > #tit {
+    text-align: left;
+    background-color: gray;
+    border-radius: 20px 20px 0 0;
+    margin-left: -5px;
+    padding: 5px;
+    margin-right: -5px;
+}
+
+article > .titulos {
+    background-image: linear-gradient(90deg, lightgray, white);
+}
+
+
+article > iframe {
+    background-color: grey;
+}
+
+#titulo1 {
+    font-family: 'idroid';
+    font-size: xx-large;
+}
+
+h2 {
+    font-family:'idroid'; 
+}
+
+p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.1em 0.3em
+}
+
+p > a {
+    background-color: lightgray;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(129, 129, 129);
+}
+
+source, img {
+    display: flex;
+    margin: auto;
+}
+
+ul {
+    width: 550px;
+    padding-left: 20px;
+    columns: 2;
+    list-style: inside "\2714\00A0\00A0";
+}
+
+footer {
+    background-color: gray;
+    height: 40px;
+}
+
+footer > p{
+    text-align: center;
+    padding: 2px;
+}
